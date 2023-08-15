@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<h4><div class="ph-head">
+            <a href="/?home=1" class="logo">
+                <i class="iconfont icon_logo"></i></a>
+                <a href="C:\Users\jdhara\OneDrive - Capgemini\Desktop\Training Period\projectCap\home.html"><b>HerbalKart</b>&nbsp;<b>
+            </a>
+            <div class="iconfont icon_menu_close ph-menu-icon"></div>
+        </div></h4>
+
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Some text about who we are and what we do.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH6UqndflQgdg/profile-displayphoto-shrink_200_200/0/1611246051699?e=1660780800&v=beta&t=SLs3VRHqzuqIZmwiCA7C0qGXy6aZ1kCNLuAxG-vS8eo" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Juthika Dhara</h2>
+        <p class="title">Developer & Designer</p>
+        <p>Some text that describes me.</p>
+        <p>juthikadhara123.jd@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp2.licdn.com/dms/image/C4D03AQGhP9WHgwXFEw/profile-displayphoto-shrink_200_200/0/1655571767676?e=1661385600&v=beta&t=Nhn2NVL4eebgWjmptoxksjenxKOEY8DmXxRE3ksEGEs" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Vrushali Ramchandra Patil</h2>
+        <p class="title">Designer & Developer</p>
+        <p>Some text that describes me.</p>
+        <p>rvrushalipatil1998@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp2.licdn.com/dms/image/C4D03AQHoO5J_on9Z7A/profile-displayphoto-shrink_200_200/0/1655518251672?e=1660780800&v=beta&t=FnTMaHp3hd7hpT69AQ98odEa0rz2-rW8nYv_EDuCaTo" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Sumalatha Pitchuka</h2>
+        <p class="title">Designer & Developer</p>
+        <p>Some text that describes me.</p>
+        <p>sumalathapitchukav@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp2.licdn.com/dms/image/C4E03AQEWvDbRkLMjFA/profile-displayphoto-shrink_200_200/0/1628398482720?e=1660780800&v=beta&t=7anu-cEFHAFbAtoqCFS4cA0DbRHnP6fO5Gd3WuETHg8" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Sreedhu Gopal S</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me.</p>
+        <p>sreedhuvenugopal3@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp2.licdn.com/dms/image/C5603AQEw1xF2k8Gwpg/profile-displayphoto-shrink_200_200/0/1614501677308?e=1660780800&v=beta&t=8EiTVUllsDE7bCrR_2qmOfizQU2u1ojG1UCdi0rOh3I" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Afrin Ahamed</h2>
+        <p class="title">Analyst</p>
+        <p>Some text that describes me.</p>
+        <p>afrineha99@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp2.licdn.com/dms/image/C4D03AQElEgR8u0Rcuw/profile-displayphoto-shrink_200_200/0/1655519661136?e=1660780800&v=beta&t=5ZFIKElFuJQweK_x3ECLVoudzQczgfQCsyVb4vYJawk" style="width:30%" "height:30%">
+      <div class="container">
+        <h2>Mumtaz Ansari</h2>
+        <p class="title">Analyst</p>
+        <p>Some text that describes me.</p>
+        <p>mumtazraza98@egmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
